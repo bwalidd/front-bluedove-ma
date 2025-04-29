@@ -38,7 +38,7 @@ interface NavItemProps {
 
 // Sample user data - in a real app, this would come from auth context or API
 const userData = {
-  firstName: "H",
+  firstName: "hejji",
   lastName: "Amine",
   email: "H.amine@example.com",
   avatar: "https://i.pravatar.cc/150?u=alex",
@@ -108,7 +108,7 @@ const SidebarLayout: React.FC<SidebarLayoutProps> = ({ children }) => {
       >
         {/* Logo and close button (for mobile) */}
         <div className="flex h-16 items-center justify-between border-b border-gray-800 px-4">
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/home" className="flex items-center space-x-2">
             <img
               src={bluedoveLogo}
               alt="Bluedove"
